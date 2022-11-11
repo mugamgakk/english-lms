@@ -1,11 +1,5 @@
 module.exports = {
-    css: {
-      loaderOptions: {
-        scss: {
-          additionalData: `
-              @import "@/style/_reset.scss";
-                  `,
-        },
-      },
-    },
-  };
+    devServer: {
+        proxy: "http://localhost:5000",
+    }
+};

@@ -1,6 +1,5 @@
 <template>
     <Location :title="'Home'" :location="'Home'" />
-
 </template>
 
 <script>

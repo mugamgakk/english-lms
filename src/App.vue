@@ -7,6 +7,7 @@
 
 <script>
 import Navbar from "./components/Navbar.vue";
+import "./style/common.scss";
 
 export default {
   name: 'App',
@@ -17,7 +18,4 @@ export default {
 </script>
 
 <style lang="scss">
-  // h1{
-  //   color: red;
-  // }
 </style>
