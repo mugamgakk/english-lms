@@ -1,5 +1,8 @@
 <template>
-    <Location :title="'Home'" :location="'Home'" />
+    <Location 
+    :title="'Home'" 
+    :location="'Home'" 
+    />
 </template>
 
 <script>
